@@ -7,4 +7,7 @@
     font-style: italic;
 }
 
-
+#fm {
+    display: flex;
+    gap: 10px;
+}
