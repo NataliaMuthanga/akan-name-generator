@@ -6,14 +6,22 @@ heading1.addEventListener("mouseleave", function(){
     heading1.style.color = "black"
 })
 
-const dateInput = document.getElementById("birthday").value;
-if(isNaN(Date.parse(dateInput))) {
-    console.log("Invalid date");
-}else {
-    console.log("Valid date");
-}
+const maleNames = [
+    "Kwasi",
+    "Kwadwo",
+    "Kwabena",
+    "Kwaku",
+    "Yaw",
+    "Kofi",
+    "Kwame"
+];
+const femaleNames = [
+    "Akosua",
+    "Adwoa",
+    "Abenaa",
+    "Akua",
+    "Yaa",
+    "Afua",
+    "Ama"
+];
 
-const Gender = document.getElementById("gender")
-if (Gender = ""){
-    console.log("Invalid entry")
-}
