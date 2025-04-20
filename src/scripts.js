@@ -12,3 +12,8 @@ if(isNaN(Date.parse(dateInput))) {
 }else {
     console.log("Valid date");
 }
+
+const Gender = document.getElementById("gender")
+if (Gender = ""){
+    console.log("Invalid entry")
+}
