@@ -27,5 +27,5 @@ document.getElementById("akanfm").addEventListener("submit", function(e){
     const akanName = gender === "male" ? maleNames[dayOfWeek] : femaleNames[dayOfWeek]
 
     document.getElementById("result").textContent = 
-    "Your Akan Name is ${akanName}"
+    `Your Akan Name is ${akanName}.`;
 })
