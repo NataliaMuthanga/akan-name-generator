@@ -6,3 +6,9 @@ heading1.addEventListener("mouseleave", function(){
     heading1.style.color = "black"
 })
 
+const dateInput = document.getElementById("birthday").value;
+if(isNaN(Date.parse(dateInput))) {
+    console.log("Invalid date");
+}else {
+    console.log("Valid date");
+}
